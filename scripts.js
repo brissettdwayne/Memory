@@ -9,8 +9,8 @@
 //Allow the user to only pick two cards
 
 //Need a function to see if the cards the user picked matched or didnt match
-var img = [ 'bownarrow', 'bownarrow-two', 'crown', 'crown-two', 'dog','dog-two', 'flag',
-'flag-two', 'libra', 'libra-two', 'soccer', 'soccer-two', 'pizza', 'pizza-two', 'party', 'party-two'];
+var img = [ 'bownarrow', 'bownarrow', 'crown', 'crown', 'dog','dog', 'flag',
+'flag', 'libra', 'libra', 'soccer', 'soccer', 'pizza', 'pizza', 'party', 'party'];
 
 
 function rand() {
@@ -36,7 +36,7 @@ function addImg() {
 function restartGame() {
   $('#restart').click(function() {
     location.reload();
-});
+  });
 }
 
 function showCards() {
@@ -51,6 +51,7 @@ function showCards() {
   restartGame();
 };
 
+//Flip each row on the grid
 function theFlip() {
   $('.card div #flip-one').on('click', function() {
     $('.card div #flip-one').toggleClass('opacity');
@@ -133,5 +134,4 @@ $(document).ready(function() {
     theFlipTwo();
     theFlipThree();
     theFlipFour();
-
 });

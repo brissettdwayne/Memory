@@ -17,6 +17,15 @@ h1, p, button {
   display: inline;
 }
 
+.clicked, .matched{
+ width:90px;
+ height:90px;
+ margin-left: 90px;
+ display: inline-block;
+ background-color: pink;
+}
+
+
 .class {
   background-color: #b69393;
   opacity: 1;
@@ -53,6 +62,7 @@ h1, p, button {
   width: 100%;
   text-align: center;
 }
+
 .crown {
   background: url('images/crown.png');
   background-size: cover;
@@ -60,13 +70,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.crown-two {
-  background: url('images/crown.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .bownarrow {
   background: url('images/bownarrow.png');
   background-size: cover;
@@ -74,13 +78,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.bownarrow-two {
-  background: url('images/bownarrow.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .dog {
   background: url('images/dog.png');
   background-size: cover;
@@ -88,13 +86,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.dog-two {
-  background: url('images/dog.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .flag {
   background: url('images/flag.png');
   background-size: cover;
@@ -102,13 +94,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.flag-two {
-  background: url('images/flag.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .libra {
   background: url('images/libra.png');
   background-size: cover;
@@ -116,13 +102,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.libra-two {
-  background: url('images/libra.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .soccer {
   background: url('images/soccer.png');
   background-size: cover;
@@ -130,13 +110,7 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.soccer-two {
-  background: url('images/soccer.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .pizza {
   background: url('images/pizza.png');
   background-size: cover;
@@ -144,21 +118,8 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-.pizza-two {
-  background: url('images/pizza.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
+
 .party {
-  background: url('images/party.png');
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  z-index: -1;
-}
-.party-two {
   background: url('images/party.png');
   background-size: cover;
   height: 100px;
