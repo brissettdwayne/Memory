@@ -1,0 +1,167 @@
+body {
+  background-color: floralwhite;
+  font-family: 'Roboto Slab', serif;
+  background: url('http://www.myfreetextures.com/wp-content/uploads/2014/10/background-seamless-wood-2.jpg');
+  background-size: cover;
+  margin-bottom: 1em;
+}
+h1, p, button {
+  text-align: center;
+}
+#play {
+  display: inline-block;
+  margin-left: 51em;
+  margin-bottom: 2em;
+}
+#restart {
+  display: inline;
+}
+
+.class {
+  background-color: #b69393;
+  opacity: 1;
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  border-radius: 20%;
+  z-index: 1;
+  margin: 4px;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.board-color {
+  background-color: floralwhite;
+  margin: auto 380px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 2%;
+}
+
+
+.card {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  border-radius: 20%;
+  z-index: 1;
+  margin: 4px;
+}
+.grid {
+  width: 100%;
+  text-align: center;
+}
+.crown {
+  background: url('images/crown.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.crown-two {
+  background: url('images/crown.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.bownarrow {
+  background: url('images/bownarrow.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.bownarrow-two {
+  background: url('images/bownarrow.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.dog {
+  background: url('images/dog.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.dog-two {
+  background: url('images/dog.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.flag {
+  background: url('images/flag.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.flag-two {
+  background: url('images/flag.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.libra {
+  background: url('images/libra.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.libra-two {
+  background: url('images/libra.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.soccer {
+  background: url('images/soccer.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.soccer-two {
+  background: url('images/soccer.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.pizza {
+  background: url('images/pizza.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.pizza-two {
+  background: url('images/pizza.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.party {
+  background: url('images/party.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
+.party-two {
+  background: url('images/party.png');
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+}
