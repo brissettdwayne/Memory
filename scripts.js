@@ -70,7 +70,68 @@ function theFlip() {
   });
 }
 
+function theFlipTwo() {
+  $('.card div #flip-five').on('click', function() {
+    $('.card div #flip-five').toggleClass('opacity');
+    $('.card #show-five').toggleClass('class');
+  });
+  $('.card div #flip-six').on('click', function() {
+    $('.card div #flip-six').toggleClass('opacity');
+    $('.card #show-six').toggleClass('class');
+  });
+  $('.card div #flip-seven').on('click', function() {
+    $('.card div #flip-seven').toggleClass('opacity');
+    $('.card #show-seven').toggleClass('class');
+  });
+  $('.card div #flip-eight').on('click', function() {
+    $('.card div #flip-eight').toggleClass('opacity');
+    $('.card #show-eight').toggleClass('class');
+  });
+}
+
+function theFlipThree() {
+  $('.card div #flip-nine').on('click', function() {
+    $('.card div #flip-nine').toggleClass('opacity');
+    $('.card #show-nine').toggleClass('class');
+  });
+  $('.card div #flip-ten').on('click', function() {
+    $('.card div #flip-ten').toggleClass('opacity');
+    $('.card #show-ten').toggleClass('class');
+  });
+  $('.card div #flip-eleven').on('click', function() {
+    $('.card div #flip-eleven').toggleClass('opacity');
+    $('.card #show-eleven').toggleClass('class');
+  });
+  $('.card div #flip-twelve').on('click', function() {
+    $('.card div #flip-twelve').toggleClass('opacity');
+    $('.card #show-twelve').toggleClass('class');
+  });
+}
+
+function theFlipFour() {
+  $('.card div #flip-thirteen').on('click', function() {
+    $('.card div #flip-thirteen').toggleClass('opacity');
+    $('.card #show-thirteen').toggleClass('class');
+  });
+  $('.card div #flip-fourteen').on('click', function() {
+    $('.card div #flip-fourteen').toggleClass('opacity');
+    $('.card #show-fourteen').toggleClass('class');
+  });
+  $('.card div #flip-fifteen').on('click', function() {
+    $('.card div #flip-fifteen').toggleClass('opacity');
+    $('.card #show-fifteen').toggleClass('class');
+  });
+  $('.card div #flip-sixteen').on('click', function() {
+    $('.card div #flip-sixteen').toggleClass('opacity');
+    $('.card #show-sixteen').toggleClass('class');
+  });
+}
+
 $(document).ready(function() {
     showCards();
     theFlip();
+    theFlipTwo();
+    theFlipThree();
+    theFlipFour();
+
 });
