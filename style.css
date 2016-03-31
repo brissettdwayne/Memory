@@ -70,7 +70,7 @@ h1, p, button {
 }
 
 .crown {
-  background: url('/images/crown.png');
+  background: url('http://i.imgur.com/x4VKXkm.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -86,7 +86,7 @@ h1, p, button {
 }
 
 .dog {
-  background: url('images/dog.png');
+  background: url('http://i.imgur.com/4yyoYV4.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -94,7 +94,7 @@ h1, p, button {
 }
 
 .flag {
-  background: url('images/flag.png');
+  background: url('http://i.imgur.com/EsOZanF.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -102,7 +102,7 @@ h1, p, button {
 }
 
 .libra {
-  background: url('images/libra.png');
+  background: url('http://i.imgur.com/PtZkn5g.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -110,7 +110,7 @@ h1, p, button {
 }
 
 .soccer {
-  background: url('images/soccer.png');
+  background: url('http://i.imgur.com/x81Mt8I.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -118,7 +118,7 @@ h1, p, button {
 }
 
 .pizza {
-  background: url('images/pizza.png');
+  background: url('http://i.imgur.com/2ikg09O.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -126,7 +126,7 @@ h1, p, button {
 }
 
 .party {
-  background: url('images/party.png');
+  background: url('http://i.imgur.com/DLj03kN.png');
   background-size: cover;
   height: 100px;
   width: 100px;
