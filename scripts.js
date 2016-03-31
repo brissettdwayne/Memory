@@ -10,7 +10,7 @@ function rand() {
 
 function addImg() {
   img.sort(rand);
-  $('.row .card div div').each(function(x, val) {
+  $('.row .card .imp div').each(function(x, val) {
       $(this).addClass(img[x] + ' unmatched');
     });
 };
@@ -25,12 +25,14 @@ function restartGame() {
 function showCards() {
   $('#play').on('click', function() {
     setTimeout(function(){
-      $('.row .card div div').addClass('opacity');
-      $('.row .card div').addClass('facedown');
+      $('.row .card .imp div').addClass('opacity');
+      $('.row .card .imp div').parent().addClass('facedown');
     }, 750);
     addImg();
+    $('#play').css('pointer-events', 'none');
   });
   restartGame();
+
 };
 
 
@@ -38,16 +40,26 @@ function playGame() {
   if ($('.active').length === 2){
     if ($($('.active')[0]).css('background') === $($('.active')[1]).css('background')) {
       $('.active').slideUp();
-      $('.check').removeClass('unmatched');
-      $('.check').addClass('match');
+      $('.active').removeClass('unmatched');
+      $('.active').addClass('match');
       $('.match').removeClass('active');
+      $('.match').css('pointer-events', 'auto');
     } else if ($($('.active')[0]).css('background') !== $($('.active')[1]).css('background')){
-        $('.row .card div .unmatched').addClass('opacity');
-        $('.row .card div .unmatched').parent().addClass('facedown');
+      setTimeout(function () {
+        $(".row .card .imp .unmatched").addClass('opacity');
+        $('.row .card .imp .unmatched').parent().addClass('facedown');
+      }, 500);
+        $(this).removeClass('match');
         $('.active').removeClass('active');
+        $(this).css('pointer-events', 'auto');
     }
   };
+  if ($('.match').length === 16) {
+    $('.board-color').addClass('pic');
+    $('p').css('font-size', '16px').text('YOU WIN!');
+  }
 };
+
 
   function theFlip() {
     $('.check').on('click', function(e) {

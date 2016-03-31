@@ -10,11 +10,27 @@ h1, p, button {
 }
 #play {
   display: inline-block;
-  margin-left: 51em;
+  margin-left: 54em;
   margin-bottom: 2em;
 }
 #restart {
   display: inline-block;
+}
+
+.active {
+  pointer-events: none;
+}
+
+.pic {
+  background: url('https://media.giphy.com/media/iPTTjEt19igne/giphy.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 376px;
+  height: 170px;
+}
+
+.facedown:hover {
+  background-color: pink;
 }
 
 .facedown {
@@ -34,7 +50,7 @@ h1, p, button {
 .board-color {
   background-color: floralwhite;
   margin: auto 380px;
-  padding: 1em;
+  padding: 3em;
   border: 1px solid black;
   border-radius: 2%;
 }
@@ -116,9 +132,3 @@ h1, p, button {
   width: 100px;
   z-index: -1;
 }
-
-
-/*else {
-  setTimeout(function(){
-    $('.unmatched').addClass('opacity facedown');
-  }, 500);*/
