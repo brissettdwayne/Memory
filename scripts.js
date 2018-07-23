@@ -1,5 +1,3 @@
-
-
 var img = [ 'bownarrow', 'bownarrow', 'crown', 'crown', 'dog','dog', 'flag',
 'flag', 'libra', 'libra', 'soccer', 'soccer', 'pizza', 'pizza', 'party', 'party'];
 
@@ -55,7 +53,6 @@ function playGame() {
     }
   };
   if ($('.match').length === 16) {
-    $('.board-color').addClass('pic');
     $('p').css('font-size', '16px').text('YOU WIN!');
   }
 };
