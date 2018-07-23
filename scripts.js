@@ -10,7 +10,7 @@ function rand() {
 
 function addImg() {
   img.sort(rand);
-  $('.row .card .imp div').each(function(x, val) {
+  $('.rows .cards .imp div').each(function(x, val) {
       $(this).addClass(img[x] + ' unmatched');
     });
 };
@@ -25,8 +25,8 @@ function restartGame() {
 function showCards() {
   $('#play').on('click', function() {
     setTimeout(function(){
-      $('.row .card .imp div').addClass('opacity');
-      $('.row .card .imp div').parent().addClass('facedown');
+      $('.rows .cards .imp div').addClass('opacity');
+      $('.rows .cards .imp div').parent().addClass('facedown');
     }, 750);
     addImg();
     $('#play').css('pointer-events', 'none');
@@ -46,8 +46,8 @@ function playGame() {
       $('.match').css('pointer-events', 'auto');
     } else if ($($('.active')[0]).css('background') !== $($('.active')[1]).css('background')){
       setTimeout(function () {
-        $(".row .card .imp .unmatched").addClass('opacity');
-        $('.row .card .imp .unmatched').parent().addClass('facedown');
+        $(".rows .cards .imp .unmatched").addClass('opacity');
+        $('.rows .cards .imp .unmatched').parent().addClass('facedown');
       }, 500);
         $(this).removeClass('match');
         $('.active').removeClass('active');

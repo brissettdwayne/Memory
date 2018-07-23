@@ -1,111 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Memory Game</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- Make divs for each img !-->
-    <!-- Make a grid somehow !-->
+
     <h1>Memory Game!</h1>
     <p>Enjoy!</p>
-    <button id='play'>Let's Play</button>
-    <button id='restart'>Restart Game</button>
-
-    <div class='board-color'>
-      <div class='row'>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-      </div>
-    </div>
-      <div class='row'>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-        </div>
-      </div>
-    </div>
-      <div class='row'>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-        <div class='card'>
-          <div class='imp'>
-            <div class='check'></div>
-          </div>
-        </div>
-      </div>
+    <div class="buttons mb-3">
+      <button class="btn btn-light" id='play'>Let's Play</button>
+      <button class="btn btn-light" id='restart'>Restart Game</button>
     </div>
 
+    <div class='board-wrapper'>
+      <div class='board-color mb-3'>
+        <div class='rows'>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+        </div>
+      </div>
+        <div class='rows'>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+          </div>
+        </div>
+      </div>
+        <div class='rows'>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+        </div>
+        <div class='rows'>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+          <div class='cards'>
+            <div class='imp'>
+              <div class='check'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js" charset="utf-8"></script>
     <script src="scripts.js" charset="utf-8"></script>
   </body>
 </html>
