@@ -62,7 +62,7 @@ h1, p {
 }
 
 .crown {
-  background: url('images/crown.png');
+  background: url('crown.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -70,7 +70,7 @@ h1, p {
 }
 
 .bownarrow {
-  background: url('images/bownarrow.png');
+  background: url('bownarrow.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -78,7 +78,7 @@ h1, p {
 }
 
 .dog {
-  background: url('images/dog.png');
+  background: url('dog.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -86,7 +86,7 @@ h1, p {
 }
 
 .flag {
-  background: url('images/flag.png');
+  background: url('flag.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -94,7 +94,7 @@ h1, p {
 }
 
 .libra {
-  background: url('images/libra.png');
+  background: url('libra.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -102,7 +102,7 @@ h1, p {
 }
 
 .soccer {
-  background: url('images/soccer.png');
+  background: url('soccer.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -110,7 +110,7 @@ h1, p {
 }
 
 .pizza {
-  background: url('images/pizza.png');
+  background: url('pizza.png');
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -118,7 +118,7 @@ h1, p {
 }
 
 .party {
-  background: url('images/party.png');
+  background: url('party.png');
   background-size: cover;
   height: 100px;
   width: 100px;
