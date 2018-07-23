@@ -1,7 +1,6 @@
 var img = [ 'bownarrow', 'bownarrow', 'crown', 'crown', 'dog','dog', 'flag',
 'flag', 'libra', 'libra', 'soccer', 'soccer', 'pizza', 'pizza', 'party', 'party'];
 
-
 function rand() {
     return (Math.round(Math.random())-0.5);
 };
@@ -12,7 +11,6 @@ function addImg() {
       $(this).addClass(img[x] + ' unmatched');
     });
 };
-
 
 function restartGame() {
   $('#restart').click(function() {
@@ -30,9 +28,7 @@ function showCards() {
     $('#play').css('pointer-events', 'none');
   });
   restartGame();
-
 };
-
 
 function playGame() {
   if ($('.active').length === 2){
@@ -57,7 +53,6 @@ function playGame() {
   }
 };
 
-
   function theFlip() {
     $('.check').on('click', function(e) {
       $(this).toggleClass('opacity');
@@ -66,7 +61,6 @@ function playGame() {
       playGame();
     });
   };
-
 
 $(document).ready(function() {
     showCards();

@@ -9,12 +9,12 @@ h1, p {
   text-align: center;
 }
 
-.buttons {
+.rows {
   text-align: center;
 }
 
-.board-wrapper {
-  position: relative;
+.buttons {
+  text-align: center;
 }
 
 .active {
@@ -41,11 +41,9 @@ h1, p {
 
 .board-color {
   background-color: floralwhite;
-  margin: auto 380px;
   padding: 3em;
   border: 1px solid black;
   border-radius: 2%;
-  position: absolute;
 }
 
 .cards {
